@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   Agent Tab #######################
+  <ClickAgentTab><![CDATA[//*[@id='css3menu']/li[8]/a/span]]></ClickAgentTab>
+  <ClickOnPartnerAgent><![CDATA[//*[@id='css3menu']/li[8]/div/div/ul/li[4]/a]]></ClickOnPartnerAgent>
+  <ClickOnaAgentCreate><![CDATA[//*[@id='actionbuttons']/span]]></ClickOnaAgentCreate>
+ 
+  //####### CREATE PARTENER AGENT
+  <SelectSalutation><![CDATA[//*[@id='PartnerAgentSalutation']]]></SelectSalutation>
+  <FirstNAME><![CDATA[//*[@id='PartnerAgentFirstName']]]></FirstNAME>
+  <LastName><![CDATA[//*[@id='PartnerAgentLastName']]]></LastName>
+  <BirthDay><![CDATA[//*[@id='PartnerAgentBirthday']]]></BirthDay>
+  <DBAName><![CDATA[//*[@id='PartnerAgentDba']]]></DBAName>
+  <LinkedInUrl><![CDATA[//*[@id='PartnerAgentLinkedinUrl']]]></LinkedInUrl>
+  <FaceBookUrl><![CDATA[//*[@id='PartnerAgentFacebookUrl']]]></FaceBookUrl>
+  <Website1><![CDATA[//*[@id='PartnerAgentWebsite']]]></Website1>
+  <TwitterURL><![CDATA[//*[@id='PartnerAgentTwitterUrl']]]></TwitterURL>
+  <SelectLanguage><![CDATA[//*[@id='PartnerAgentLanguage']]]></SelectLanguage>
+  //############## CONTACT INFORMTAION
+  <eAddressType><![CDATA[//*[@id='PartnerAgentElectronicAddress0ElectronicContentType']]]></eAddressType>
+  <eAddressLebel><![CDATA[//*[@id='PartnerAgentElectronicAddress0ElectronicContentLabel']]]></eAddressLebel>
+  <eAddress><![CDATA[//*[@id='PartnerAgentElectronicAddress0ElectronicContent']]]></eAddress>
+  // ################## PHONE
+  <SelectPhoneType><![CDATA[//*[@id='PartnerAgentPhone0PhoneType']]]></SelectPhoneType>
+  <PhoneNumber><![CDATA[//*[@id='PartnerAgentPhone0PhoneNumber']]]></PhoneNumber>
+  //#################### ADDRESS
+  <AddressType><![CDATA[//*[@id='PartnerAgentAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='PartnerAgentAddress0AddressLine1']]]></AddressLine1>
+  <AddressLine2><![CDATA[//*[@id='PartnerAgentAddress0AddressLine2']]]></AddressLine2>
+  <City><![CDATA[//*[@id='PartnerAgentAddress0City']]]></City>
+  <State><![CDATA[//*[@id='PartnerAgentAddress0State']]]></State>
+  <PostalCode><![CDATA[//*[@id='PartnerAgentAddress0PostalCode']]]></PostalCode>
+  //################### CREATE USER ACCOUNT FOR THIS PARTNER AGENT
+  <ClickONcheckBox><![CDATA[//*[@id='UserCreateUser']]]></ClickONcheckBox>
+  <UserName><![CDATA[//*[@id='UserUserName']]]></UserName>
+  <ClickOnAvatar><![CDATA[//div[@class='row']/div[3]/ul/li/input]]></ClickOnAvatar>
+  //######################  CLICK ON SAVE BUTTON
+  <SaveAGENTbtn><![CDATA[//*[@id='PartnerAgentAgentCreateForm']/div[2]/div[7]/div/a[1]/span[2]]]></SaveAGENTbtn>
+  <PrtnerAgentCntry><![CDATA[//*[@id='PartnerAgentAddress0Country']]]></PrtnerAgentCntry>
+  <ClickMiddleName><![CDATA[//*[@id='PartnerAgentMiddleName']]]></ClickMiddleName>
+  <Extension><![CDATA[//*[@id='PartnerAgentPhone0PhoneExtension']]]></Extension>
+  <PasswordAtoGenerate><![CDATA[//*[@id='UserAutogenerate']]]></PasswordAtoGenerate>
+  <PasswordAcc><![CDATA[//*[@id='UserPassword']]]></PasswordAcc>
+  
+  <!--SEARCH USER AT ADMIN SIDE-->
+  <MoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]]]></MoveHover>
+  <ClickOnOffice><![CDATA[//*[@id='css3menu']/li[1]/a]]></ClickOnOffice>
+  <EnterEmail><![CDATA[//*[@id='gs_electronic_content']]]></EnterEmail>
+  <SelectStatus1><![CDATA[//*[@id='gs_status']]]></SelectStatus1>
+  <!--Verify Email At Yop Mail-->
+  <EnterYopMailId><![CDATA[//*[@id='login']]]></EnterYopMailId>
+  <ClickOnNewEmailBtn><![CDATA[//input[@value='Check Inbox']]]></ClickOnNewEmailBtn>
+
+  <!--NEW SKIN-->
+  <ClickOnAgentTab><![CDATA[//a[@title='Agents']]]></ClickOnAgentTab>
+  <SaleAgent><![CDATA[//a[@title='Sales Agents']]]></SaleAgent>
+  <ClickOnCreateBtn><![CDATA[//*[@id='actionbuttons']]]></ClickOnCreateBtn>
+  <ClickSaveNskin><![CDATA[//button[@title='Save']]]></ClickSaveNskin>
+
+  <!--SEARCH AGENT-->
+  <EnterAgentName><![CDATA[//*[@id='gs_contactNm']]]></EnterAgentName>
+  <SelectStatusAdjtmnt><![CDATA[//*[@id='gs_active']]]></SelectStatusAdjtmnt>
+  <ClikOnPartnerAgent><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_contactNm']/a]]></ClikOnPartnerAgent>
+  <ClickOnCreatebtnAdjmnt><![CDATA[//a[@title='Create New Partner Agent']]]></ClickOnCreatebtnAdjmnt>
+  <ClickOnSaleAgent><![CDATA[//*[@id='adjagent']]]></ClickOnSaleAgent>
+  <ClickSaleManager><![CDATA[//*[@id='adjmgr']]]></ClickSaleManager>
+  <!--CREATE ADJUSTMENT FOR SALE AGENT-->
+  <EnterAdjustmentName><![CDATA[//*[@id='RirOrgMasterRulesetRuleName']]]></EnterAdjustmentName>
+  <SelectAdjustmentFor><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentFor']]]></SelectAdjustmentFor>#Agent
+  <AdjustmentType><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentType']]]></AdjustmentType>#Transaction
+  <SelectReportingPeriod><![CDATA[//*[@id='RirOrgMasterRulesetReportingMonth']]]></SelectReportingPeriod>#00
+  <SelectProcessor><![CDATA[//*[@id='RirOrgMasterRulesetProcessor']]]></SelectProcessor>#Any
+  <SelectRuleType><![CDATA[//*[@id='rule_type0']]]></SelectRuleType>#1
+  <EnterAmount><![CDATA[//*[@id='amount_field0']]]></EnterAmount>
+  <AddRemove><![CDATA[//*[@id='RirOrgMasterRulesetCustomRule0AddOrRemoveFlag']]]></AddRemove>#Add
+  <ClickOnSaveBtnAdjustmnet><![CDATA[//a[@title='Save']]]></ClickOnSaveBtnAdjustmnet>
+
+  <!--VIEW ADJUSTMENT-->
+  <ClickonResidualIncometab><![CDATA[//a[@title='Residual Income']]]></ClickonResidualIncometab>
+  <ClickOnMasterdata><![CDATA[//a[@title='Master Data']]]></ClickOnMasterdata>
+  <EnterAdjustmentNameSrch><![CDATA[//*[@id='gs_rule_name']]]></EnterAdjustmentNameSrch>
+  <EnterScrhAdjustmentFor><![CDATA[//*[@id='gs_adjustment_for']]]></EnterScrhAdjustmentFor>
+  <ClickAdjustmentName><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_rule_name']/a]]></ClickAdjustmentName>
+  
+  <!--ADD CODES-->
+  <SelectProcesor><![CDATA[//*[@id='PartnerAgentCodesShareProcessor']]]></SelectProcesor>#Any
+  <EnterCodep><![CDATA[//*[@id='PartnerAgentCodesShareAgentCode']]]></EnterCodep>
+  <RevenueSharePa><![CDATA[//*[@id='PartnerAgentCodesShareRevenueShare']]]></RevenueSharePa>
+
+  <ClickOnRevenueShare><![CDATA[//a[@title='Revenue Shares']]]></ClickOnRevenueShare>
+  <RevenueSharePartnerAgent><![CDATA[//a[@title='Add a New Agent Revenue Share']]]></RevenueSharePartnerAgent>
+  <EnterPartnerCode><![CDATA[//*[@id='PartnerAgentCodesShareAgentCode']]]></EnterPartnerCode>
+  <RevenueShare><![CDATA[//*[@id='PartnerAgentCodesShareRevenueShare']]]></RevenueShare>
+  <ClickOnSaveRS><![CDATA[//div[@class='modal-footer']/a[1]]]></ClickOnSaveRS>
+  <SelectPartnerAgnetRS><![CDATA[//*[@id='PartnerAgentCodesSharePartnerAgentId']]]></SelectPartnerAgnetRS>#811
+  <SearchDeciaml><![CDATA[//*[@id='gs_revenue_share']]]></SearchDeciaml>
+  <VerifyValueInDecimal><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_revenue_share']]]></VerifyValueInDecimal>
+   <!--REVENUE SHHARE PARTNER ASSOCIATION-->
+  <ClickOnPANewRevenueShare><![CDATA[//a[@title='Add a New Association Revenue Share']]]></ClickOnPANewRevenueShare>
+  <AgentNameSelect><![CDATA[//*[@id='PartnerAssociationCodesSharePartnerAssociationId']]]></AgentNameSelect>#216
+  <ProcessorCodePAss><![CDATA[//*[@id='PartnerAssociationCodesShareAssociationCode']]]></ProcessorCodePAss>
+  <RevenueShareps><![CDATA[//*[@id='PartnerAssociationCodesShareRevenueShare']]]></RevenueShareps>
+  <EditPartnerAgent><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_']/span/a[@title='Edit Partner']]]></EditPartnerAgent>
+  <ClikcEditSave><![CDATA[//div[@class='col-lg-4 form-bttns-align']/button[@title='Save']]]></ClikcEditSave>  
+
+</Locators>

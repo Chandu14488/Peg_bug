@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   TerminalAndEquipment  #######################
+  <MoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]]]></MoveHover>
+  <ClickOnAdmin><![CDATA[link=Admin]]></ClickOnAdmin>
+  <ClickOnEquipmentTab><![CDATA[//*[@id='css3menu']/li[10]/a]]></ClickOnEquipmentTab>
+  <ClickOnCreate><![CDATA[//*[@id='buttons']/span[1]]]></ClickOnCreate>
+  //######################    EQUIPMENT CREATE
+  <ShippingCarrierName><![CDATA[//*[@id='EquipmentShippingCarrierName']]]></ShippingCarrierName>
+  <Website><![CDATA[//*[@id='EquipmentShippingCarrierWebsite']]]></Website>
+  <TrackingURL><![CDATA[//*[@id='login']]]></TrackingURL>
+  //################   CLICK ON SAVE
+  <SaveBtn><![CDATA[//*[@id='main_container']/div/div[1]/div[2]/a[1]/span[1]]]></SaveBtn>
+
+
+</Locators>

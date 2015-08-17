@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  //#######################   ADMIN CORPORATE   #######################
+  
+  <MoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]]]></MoveHover>
+  <ClickOnAdmin><![CDATA[link=Admin]]></ClickOnAdmin>
+  <ClickOnCorpTab><![CDATA[//*[@id='css3menu']/li[2]/a]]></ClickOnCorpTab>
+  <ClickOnAddDocument><![CDATA[//*[@id='adddocument1']/span[1]]]></ClickOnAddDocument>
+  
+  //######################    ADD DOCUMENT
+  
+  <Name><![CDATA[//*[@id='DocumentName']]]></Name>
+  <ClickToUpload><![CDATA[//*[@id='DocumentFiles']]]></ClickToUpload>
+  <Description><![CDATA[//*[@id='DocumentDescription']]]></Description>
+
+  
+
+  //################   CLICK ON SAVE
+   <ClickOnSave><![CDATA[//*[@id='savedocument']/span[1]]]></ClickOnSave>
+  
+</Locators>
+
+
