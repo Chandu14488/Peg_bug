@@ -40,24 +40,25 @@ namespace PegasusTests.Scripts.ClientsTests
             Console.WriteLine("Redirected at Dashboard screen.");
 
             //Click on Clients in Topmenu
-            clientBugsHelper.ClickElement("ClickOnAgentTab");
+//            clientBugsHelper.ClickElement("ClickOnAgentTab");
 
             //Redirect To URL
             GetWebDriver().Navigate().GoToUrl("https://www.pegasus-test.com/selenium_corp/selenium_office/employees");
       
             //Select Status
             clientBugsHelper.Select("SelectStatus", "Active");
-            clientBugsHelper.WaitForWorkAround(3000);
+            clientBugsHelper.WaitForElementPresent("VerifyStatus",20);
 
             //Verify page text
             clientBugsHelper.VerifyText("VerifyStatus", "Active");
+            clientBugsHelper.WaitForWorkAround(3000);
 
             //Select Status
             clientBugsHelper.Select("SelectStatus", "Disabled");
-            clientBugsHelper.WaitForWorkAround(3000);
+       //     clientBugsHelper.WaitForElementPresent("VerifyStatus", 20);
 
             //Verify page text
-            clientBugsHelper.VerifyText("VerifyStatus", "Inactive");
+        //    clientBugsHelper.VerifyText("VerifyStatus", "Inactive");
 
 
             //Select Status
@@ -66,9 +67,11 @@ namespace PegasusTests.Scripts.ClientsTests
 
             //Verify page text
             clientBugsHelper.VerifyPageText("Active");
+            clientBugsHelper.WaitForWorkAround(3000);
 
             //Verify Page Text
-            clientBugsHelper.VerifyPageText("Inactive");
+          //  clientBugsHelper.VerifyPageText("Inactive");
+          //  clientBugsHelper.WaitForWorkAround(3000);
 
 
            

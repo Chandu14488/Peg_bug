@@ -97,7 +97,7 @@
   <SelectRole><![CDATA[//*[@id='gs_role']]]></SelectRole>
   <SelectDepartment><![CDATA[//*[@id='gs_departmentname']]]></SelectDepartment>
   <SelectTeam><![CDATA[//*[@id='gs_teamname']]]></SelectTeam>
-  <VerifyStatus><![CDATA[//table[@id='list1']/tbody/tr[2]/td[7]]]></VerifyStatus>
+  <VerifyStatus><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]]]></VerifyStatus>
   
   <!--PDF TEMPLATES PERMINSSIONS -->
   <ClickOnPDFTab><![CDATA[//*[@id='css3menu']/li[6]/a]]></ClickOnPDFTab>

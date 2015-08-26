@@ -37,7 +37,7 @@ namespace PegasusTests.Scripts.ClientsTests
             GetWebDriver().Navigate().GoToUrl("https://www.pegasus-test.com/selenium_corp/selenium_office/admin");
 
             //Click on System Tab
-            clientBugsHelper.ClickElement("ClickOnSystemTab");
+   //         clientBugsHelper.ClickElement("ClickOnSystemTab");
 
             //Redirect To PickList
             GetWebDriver().Navigate().GoToUrl("https://www.pegasus-test.com/selenium_corp/selenium_office/pick-lists");
